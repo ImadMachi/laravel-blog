@@ -3,12 +3,11 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Tag>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Taggable>
  */
-class TagFactory extends Factory
+class TaggableFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,11 +16,8 @@ class TagFactory extends Factory
      */
     public function definition()
     {
-        $name = fake()->word();
-        $slug = Str::slug($name, '-');
         return [
-            'name' => $name,
-            'slug' => $slug,
+            //
         ];
     }
 }
