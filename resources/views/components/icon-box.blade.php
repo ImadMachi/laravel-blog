@@ -1,0 +1,1 @@
+<a {{$attributes(["class"=>"text-white icon-box-circle"])}}>{{$slot}}</a>

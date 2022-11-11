@@ -1,0 +1,1 @@
+<a href="#" {{$attributes(["class"=>"btn btn-primary"])}}>{{$slot}}</a>

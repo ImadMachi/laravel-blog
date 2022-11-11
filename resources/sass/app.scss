@@ -1,8 +1,17 @@
-// Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/v4-shims.scss";
 
 // Variables
-@import 'variables';
-
+@import "variables";
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+// Icons styles
+@import "icons";
+// General styles
+@import "general";
+// Carousel
+@import "carousel";
